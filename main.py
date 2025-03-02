@@ -51,7 +51,7 @@ async def web_server():
 # User Management System (In-Memory)
 # Define sudo users and allowed users directly in the script
 sudo_users = [7246728595]  # Replace with your user ID
-allowed_users = []  # Initially, only sudo users are allowed
+allowed_users = [7246728595]  # Initially, only sudo users are allowed
 
 def is_sudo(user_id):
     return user_id in sudo_users
